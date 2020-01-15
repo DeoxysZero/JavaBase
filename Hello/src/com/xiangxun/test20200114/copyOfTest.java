@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class copyOfTest {
     public static void main(String[] args) {
         // *************复制 copy****************
-        // copyOf 方法实现数组复制,h为数组，6为复制的长度
-        int[] h = { 1, 2, 3, 3, 3, 3, 6, 6, 6, };
-        int i[] = Arrays.copyOf(h, 6);
-        System.out.println("Arrays.copyOf(h, 6);：");
-        // 输出结果：123333
+        // copyOf 方法实现数组复制,h为数组，16为复制的长度
+        int[] h = { 1, 2, 3, 4,5,6,7,8 };
+        int i[] = Arrays.copyOf(h, 16);
+        System.out.println("Arrays.copyOf(h, 16);：");
+        // 输出结果：
         for (int j : i) {
             System.out.print(j);
         }
